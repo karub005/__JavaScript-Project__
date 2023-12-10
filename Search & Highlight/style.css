@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Baloo Bhai 2";
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  background: #050a30;
+}
+
+#searchBox {
+  width: 50%;
+  height: 50px;
+  display: flex;
+  flex-flow: nowrap;
+}
+
+#input {
+  width: 80%;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+#searchBtn {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  background: crimson;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.content-container {
+  width: 90%;
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+  text-align: justify;
+  max-width: 700px;
+  margin-top: 20px;
+}
+
+mark {
+  background-color: crimson;
+  color: white;
+  padding: 0;
+  margin: 0;
+  display: inline;
+  border-radius: 5px;
+}
