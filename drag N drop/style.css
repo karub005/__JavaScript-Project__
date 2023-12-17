@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Baloo Bhai 2";
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0b0423;
+}
+
+#left,
+#right {
+  width: 300px;
+  min-height: 400px;
+  margin: 20px;
+  border: 2px dashed #fff;
+}
+
+.list {
+  background: #e91e63;
+  height: 60px;
+  margin: 30px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  cursor: grab;
+  font-size: 24px;
+}
+
+.list span {
+  font-size: 30px;
+  margin-inline: 10px 15px;
+  text-align: center;
+}
